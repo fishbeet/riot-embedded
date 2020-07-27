@@ -28,7 +28,7 @@ import Avatar from './avatar';
  * @param   {string} signInPrompt - Show sign in prompt for - none, guests, all 
  */
 export default class Client extends Component{
-    static propTypes = {
+    /* static propTypes = {
         roomId: PropTypes.string.isRequired, // The ID of default room
         userId: PropTypes.string, // The ID of default user
         accessToken: PropTypes.string, // The access token of default user
@@ -41,7 +41,7 @@ export default class Client extends Component{
         msgComposer: PropTypes.bool, // Enable msgComposer? Overrides readOnly
         whitelist: PropTypes.array, // Whitelisted origins - ignore to allow all
         signInPrompt: PropTypes.string // Show signInPrompt for - none, guests, all
-    };
+    }; */
 
     constructor(props) {
         super(props);

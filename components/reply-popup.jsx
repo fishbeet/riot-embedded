@@ -13,12 +13,12 @@ import Sanitizer from '../classes/sanitizer.js';
  * @param   {func} replyTo - Callback for setting reply
  */
 export default class ReplyPopup extends PureComponent {
-    static propTypes = {
+    /* static propTypes = {
         homeserver: PropTypes.string.isRequired, // Homeserver URL
         mxEvent: PropTypes.object.isRequired, // Event object
         client: PropTypes.object.isRequired, // Client object
         replyTo: PropTypes.func.isRequired // Callback for setting reply
-    };
+    }; */
 
     constructor(props) {
         super(props);

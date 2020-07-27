@@ -18,7 +18,7 @@ import linkifyHtml from 'linkifyjs/html';
  * @param   {func} showReceipts - Callback to show read receipts
  */
 export default class EventTile extends PureComponent {
-    static propTypes = {
+    /* static propTypes = {
         homeserver: PropTypes.string.isRequired, // Homeserver URL
         mxEvent: PropTypes.object.isRequired, // Event object
         client: PropTypes.object.isRequired, // Client object
@@ -26,7 +26,7 @@ export default class EventTile extends PureComponent {
         canWrite: PropTypes.bool.isRequired, // If client can send messages
         isGuest: PropTypes.bool.isRequired, // If client is in guest mode
         showReceipts: PropTypes.func.isRequired // Callback to show read receipts
-    };
+    }; */
 
     constructor(props) {
         super(props);

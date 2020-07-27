@@ -11,11 +11,11 @@ import ThemeContext from './theme-context.jsx';
  * @param   {func} onClick - Callback for onclick events
  */
 export default class RoomsList extends PureComponent {
-    static propTypes = {
+    /* static propTypes = {
         list: PropTypes.arrayOf(PropTypes.object).isRequired, // List of rooms
         currentRoomId: PropTypes.string.isRequired, // Currently selected room ID
         onClick: PropTypes.func // Callback for onclick events
-    };
+    }; */
 
     // Consume theme context
     static contextType = ThemeContext;

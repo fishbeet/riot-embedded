@@ -10,11 +10,11 @@ import ThemeContext from './theme-context.jsx';
  * @param   {object} children - Form body
  */
 export default class Modal extends PureComponent {
-    static propTypes = {
+    /* static propTypes = {
         visible: PropTypes.bool, // If modal is visible
         title: PropTypes.string, // Modal title
         children: PropTypes.object // Form body
-    }
+    } */
 
     constructor(props) {
         super(props);

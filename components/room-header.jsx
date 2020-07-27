@@ -10,10 +10,10 @@ import ThemeContext from './theme-context.jsx';
  * @param   {object} room - Room object for the corresponding room
  */
 export default class RoomHeader extends PureComponent {
-    static propTypes = {
+    /* static propTypes = {
         homeserver: PropTypes.string.isRequired, // Homeserver URL 
         room: PropTypes.object // Room object for corresponding room    
-    };
+    }; */
 
     // Consume theme context
     static contextType = ThemeContext;

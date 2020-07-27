@@ -16,7 +16,7 @@ import ThemeContext from './theme-context.jsx';
  * @param   {func} showReceipts - Callback to show read receipts
  */
 export default class TimelinePanel extends PureComponent {
-    static propTypes = {
+    /* static propTypes = {
         homeserver: PropTypes.string.isRequired, // Homeserver URL
         room: PropTypes.object, // Room object
         client: PropTypes.object, // Client object
@@ -25,7 +25,7 @@ export default class TimelinePanel extends PureComponent {
         canWrite: PropTypes.bool, // If client can send messages
         isGuest: PropTypes.bool, // If client is in guest mode
         showReceipts: PropTypes.func // Callback to show read receipts
-    };
+    }; */
 
     constructor(props) {
         super(props);

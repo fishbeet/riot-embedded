@@ -1,4 +1,4 @@
-import {config} from './config.js';
+/* import {config} from './config.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Client from './components/client.jsx';
@@ -8,4 +8,4 @@ require('./styles/main.scss');
 ReactDOM.render(
     <Client {...config} />,
     document.getElementById('root')
-);
+); */

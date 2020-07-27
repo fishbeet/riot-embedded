@@ -17,14 +17,14 @@ import Read from '../res/read.svg';
  * @param   {func} showReceipts - Callback to show read receipts
  */
 export default class MessageToolbar extends PureComponent {
-    static propTypes = {
+    /* static propTypes = {
         mxEvent: PropTypes.object.isRequired, // Event object
         replyTo: PropTypes.func.isRequired, // Callback for setting reply
         delete: PropTypes.func.isRequired, // Callback for deleting current event
         canDelete: PropTypes.bool.isRequired, // If current user can delete event
         canWrite: PropTypes.bool.isRequired, // If client can write messages
         showReceipts: PropTypes.func.isRequired // Callback to show read receipts
-    };
+    }; */
 
     constructor(props) {
         super(props);

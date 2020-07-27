@@ -9,11 +9,11 @@ import PropTypes from 'prop-types';
  * @param   {string} name - String to get initial letter from
  */
 export default class Avatar extends PureComponent {
-    static propTypes = {
+    /* static propTypes = {
         imgUrl: PropTypes.string, // The avatar URL
         size: PropTypes.number, // The height and width of avatar
         name: PropTypes.string, // String to get initial letter from
-    };
+    }; */
 
     /** Get first letter of name */
     getInitialLetter() {

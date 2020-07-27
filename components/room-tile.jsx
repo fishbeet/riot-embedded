@@ -10,12 +10,12 @@ import ThemeContext from './theme-context.jsx';
  * @param   {func} onClick - Callback to handle clicks
  */
 export default class RoomTile extends PureComponent {
-    static propTypes = {
+    /* static propTypes = {
         room: PropTypes.object.isRequired, // Room object for corresponding room
         selected: PropTypes.bool.isRequired, // True if currently selected else false
         onClick: PropTypes.func.isRequired // Callback for handling clicks
     };
-
+ */
     // Consume theme context
     static contextType = ThemeContext;
     render() {

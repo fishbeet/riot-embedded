@@ -13,12 +13,12 @@ import Sanitizer from '../classes/sanitizer.js';
  * @param   {func} unsetReply - Callback to unset reply
  */
 export default class MessageComposer extends PureComponent {
-    static propTypes = {
+    /* static propTypes = {
         roomId: PropTypes.string.isRequired, // Current room ID
         client: PropTypes.object.isRequired, // Client object
         mxEvent: PropTypes.object, // Event to reply to
         unsetReply: PropTypes.func.isRequired // Callback to unset reply
-    };
+    }; */
 
     constructor(props) {
         super(props);

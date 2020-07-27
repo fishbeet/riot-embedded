@@ -18,11 +18,11 @@ export default class SignInForm extends PureComponent {
         this.onSubmit = this.onSubmit.bind(this);
     }
 
-    static propTypes = {
+    /* static propTypes = {
         client: PropTypes.object.isRequired, // Client object
         setUser: PropTypes.func.isRequired // Callback to change user
     }
-
+ */
     onSubmit(event) {
         // Get credentials from event
         let formData = new FormData(document.forms['sign-in']);
